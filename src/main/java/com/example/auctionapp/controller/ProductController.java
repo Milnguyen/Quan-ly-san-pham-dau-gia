@@ -82,6 +82,11 @@ public class ProductController {
         productRepository.save(product);
         return "redirect:/products";
     }
+    @PostMapping("/update")
+    public String updateProduct(@ModelAttribute("product") Product product) {
+        productRepository.save(product);
+        return "redirect:/products";
+    }
 
     @PostMapping("/create")
     public String createProduct(
