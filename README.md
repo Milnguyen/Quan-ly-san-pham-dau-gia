@@ -31,19 +31,24 @@ Hệ thống quản lý sản phẩm đấu giá được xây dựng bằng **S
 ---
 📂 Cấu trúc dự án
 
-  ├── java
-  │   └── com
-  │       └── example
-  │           └── auctionapp
-  │               ├── controller      
-  │               ├── entity          
-  │               ├── repository      
-  │               └── AuctionAppApplication.java
-  │
-  └── resources
-      ├── static                      
-      ├── templates                   
-      └── application.properties      
+src
+├── main
+│   ├── java
+│   │   └── com
+│   │       └── example
+│   │           └── auctionapp
+│   │               ├── controller     
+│   │               ├── entity          
+│   │               ├── repository      
+│   │               └── AuctionAppApplication.java
+│   │
+│   └── resources
+│       ├── static                      
+│       ├── templates                  
+│       └── application.properties     
+│
+└── test                               
+  
 
  🛠️ Công nghệ sử dụng
 
