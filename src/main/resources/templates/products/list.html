@@ -101,19 +101,16 @@
                         <span class="badge bg-warning text-dark"
                               th:if="${#strings.contains(p.status, 'Đang')}"
                               th:text="${p.status}">
-
                         </span>
 
                         <span class="badge bg-danger"
-                              th:if="${#strings.contains(p.status, 'bán')}"
+                              th:if="${#strings.contains(p.status, 'Đã')}"
                               th:text="${p.status}">
-
                         </span>
 
                         <span class="badge bg-success"
-                              th:if="${!#strings.contains(p.status, 'Đang') and !#strings.contains(p.status, 'bán')}"
+                              th:if="${!#strings.contains(p.status, 'Đang') and !#strings.contains(p.status, 'Đã')}"
                               th:text="${p.status}">
-
                         </span>
                     </td>
 
